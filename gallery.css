@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+.gallery_heading{
+  font-size:50px;
+  color:#0c0f2d;
+  text-align:center;
+}
+.gallery_1{
+border: 3px solid black;
+}
+.gallery_1 img{
+  width: 100%;
+  height: auto;
+  
+}
+.gallery{
+  padding:6px 6px;
+  float: left;
+  width:25%;
+transform:scale(.9);
+  transition:.5s;
+}
+.gallery:hover{
+ transform:scale:(1);
+}
+@media only screen and (max-width:700px){
+  .gallery{
+    width:50%;
+  }
+}
+ @media only screen and (max-width:500px){
+   .gallery{
+     width:100%;
+margin:6px;
+   }
+ }
